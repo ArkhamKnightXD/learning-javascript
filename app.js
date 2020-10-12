@@ -61,6 +61,9 @@ console.log(person);
 
 let number1 = 5;
 let number2 = 7;
+var number3;
+
+number3 = 4;
 
 var resultado = number1 + number2;
 var resultado2 = number1 - number2;
@@ -132,3 +135,49 @@ switch (typeCard) {
 
 
 //Bucles
+let count = 0;
+
+while (count <= 50) {
+    
+    console.log(count);
+    count++;
+}
+
+//for
+
+for (let index = 0; index <= count; index++) {
+    console.log("hello world");
+    
+}
+
+let names = ["karvin", "john","pepe", "mario"];
+
+for (let index = 0; index < names.length; index++) {
+
+    var arrayName = names[index];
+
+    var sayHiTo = "hola" + " " + arrayName;
+
+    console.log(sayHiTo);
+    
+}
+
+
+
+//funciones en javascript
+
+function sayHi() {
+    console.log("hi");
+}
+
+sayHi();
+
+
+//no es necesario ponerle var ni let a los parametros
+// cuando en javascript una variable esta vacia se utiliza el termino undefined
+function addTwoNumbers(number1, number2) {
+    
+    console.log(number1+number2);
+}
+
+addTwoNumbers(4,5);
