@@ -1,3 +1,5 @@
+//Este archivo js esta constituido por todo lo basico del lenguaje javascript
+
 //Como esto trabajando directamente con la consola para imprimir este utilizo console
 console.log("hello world");
 
@@ -181,3 +183,5 @@ function addTwoNumbers(number1, number2) {
 }
 
 addTwoNumbers(4,5);
+
+//fin
