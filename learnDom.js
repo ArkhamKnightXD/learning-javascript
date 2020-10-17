@@ -51,21 +51,29 @@ var cantidadParrafos = document.querySelectorAll("p");
 console.log(cantidadParrafos);
 
 
-var botonEvemt = document.getElementById("button");
+var botonEvent = document.getElementById("button");
 
 
 //eventos con los eventos podemos detectar cuando se hacer click con el mouse o hover y mas y cuando se suelta el mouse sobre el boton o X elemento
-botonEvemt.addEventListener("click", function() {
+botonEvent.addEventListener("click", function() {
     console.log("me diste un click");
 });
 
 // a una funcion sin nombre se le dice funcion anonima, en los eventos no es necesario nombrar las funciones
-botonEvemt.addEventListener("mouseover", function () {
+botonEvent.addEventListener("mouseover", function() {
     console.log("mouse hover")
 });
 
-botonEvemt.addEventListener("mouseout", function () {
+botonEvent.addEventListener("mouseout", function() {
     console.log("mouse bye")
+});
+
+botonEvent.addEventListener("dblclick", function() {
+    console.log("double click");
+});
+
+botonEvent.addEventListener("click", function() {
+    h1.innerHTML = "button click";
 });
 
 //fin
