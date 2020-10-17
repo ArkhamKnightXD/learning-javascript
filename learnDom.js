@@ -74,6 +74,9 @@ botonEvent.addEventListener("dblclick", function() {
 
 botonEvent.addEventListener("click", function() {
     h1.innerHTML = "button click";
+    h1.style.color = "blue";
+    h1.style.background = "red";
+    h1.style.fontSize = 56;
 });
 
 //fin
